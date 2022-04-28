@@ -1,0 +1,22 @@
+Algoritmo "HORA DE TRABALHO"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/01/2022
+Var
+NOME:CARACTERE
+VALOR:REAL
+HORAS:REAL
+SALARIO:REAL
+Inicio
+ESCREVAL("DIGITE O NOME DO TRABALHADOR: ")
+LEIA(NOME)
+ESCREVAL("DIGITE O VALOR GANHO POR HORA: ")
+LEIA(VALOR)
+ESCREVAL("DIGITE HORAS TRABALHADAS POR MÊS: ")
+LEIA(HORAS)
+SALARIO<- VALOR*HORAS
+ESCREVA(" O PAGAMENTO PARA ",NOME," É DE R$ ",SALARIO)
+
+Fimalgoritmo
